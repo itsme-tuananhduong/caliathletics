@@ -1,0 +1,222 @@
+#ex-options {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#b-1,
+#b-2,
+#b-3,
+#b-4,
+#b-5,
+#b-6,
+#b-7,
+#b-8,
+#b-9,
+#b-10,
+#b-11,
+#b-12,
+#b-13,
+#b-14 {
+  width: 100%;
+}
+
+#b-15,
+#b-16,
+#b-17,
+#b-18,
+#b-19 {
+  width: 50%;
+}
+
+#options-3 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#icon-1,
+#icon-2,
+#icon-3 {
+  margin: 0 auto;
+}
+
+.h3 {
+  text-align: center;
+}
+
+.paragh {
+  text-align: center;
+}
+
+.ex-set {
+  display: flex;
+  flex-direction: column;
+}
+
+.round {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.excercises {
+  display: flex;
+  margin: 10px;
+}
+
+.ex {
+  display: flex;
+}
+
+.image-name {
+  display: flex;
+  align-items: center;
+}
+
+.ex-change-prop {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+
+.ex-change {
+  display: flex;
+  align-items: center;
+}
+
+.add-ex {
+  display: flex;
+  margin: 10px;
+  margin-left: 25px;
+}
+
+.add-round {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.images {
+  width: 30%;
+  height: auto;
+  margin-left: 15px;
+}
+
+.text {
+  margin: auto 5px;
+}
+
+.heading {
+  margin: auto 0px;
+}
+
+.button-done {
+  display: flex;
+  justify-content: center;
+}
+
+.ex-info {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.ex-video {
+  margin-bottom: 10px;
+}
+
+#video {
+  width: 50%;
+  height: auto;
+}
+
+#com-time {
+  font-weight: bold;
+  color: black;
+  margin: 0px;
+}
+
+#ex-rep-on,
+#ex-rest-on {
+  color: black;
+}
+
+.mybtn {
+  background-color: #fd6b00;
+  border: none;
+  color: white;
+  padding: 12px 16px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* Darker background on mouse-over */
+.mybtn:hover {
+  background-color: #fd3b00;
+}
+
+.block {
+  display: block;
+  width: 100%;
+  border: none;
+  background-color: #fd6b00;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.block:hover {
+  background-color: #fd3b00;
+}
+
+#select-form {
+  margin: auto 5px;
+}
+
+#waiting-img {
+  width: 65%;
+  height: auto;
+}
+
+#button-start {
+  margin-top: 30px;
+}
+
+#addr {
+  color: white;
+}
+
+#yes-1,
+#yes-2,
+#yes-3,
+#yes-4 {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.p-1 {
+  width: 45%;
+}
+
+.p-2 {
+  align-items: center;
+}
+
+.i {
+  width: 100%;
+  height: auto;
+}
+
+.bruhh {
+  margin: 0px 6%;
+}

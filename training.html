@@ -1,0 +1,1114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Caliathletics - Tập luyện</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+	<link
+		href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900,900i&display=swap"
+		rel="stylesheet" />
+
+	<link rel="stylesheet" href="css/open-iconic-bootstrap.min.css" />
+	<link rel="stylesheet" href="css/animate.css" />
+
+	<link rel="stylesheet" href="css/owl.carousel.min.css" />
+	<link rel="stylesheet" href="css/owl.theme.default.min.css" />
+	<link rel="stylesheet" href="css/magnific-popup.css" />
+
+	<link rel="stylesheet" href="css/aos.css" />
+
+	<link rel="stylesheet" href="css/ionicons.min.css" />
+
+	<link rel="stylesheet" href="css/bootstrap-datepicker.css" />
+	<link rel="stylesheet" href="css/jquery.timepicker.css" />
+
+	<link rel="stylesheet" href="css/flaticon.css" />
+	<link rel="stylesheet" href="css/icomoon.css" />
+	<link rel="stylesheet" href="css/style.css" />
+	<link rel="stylesheet" href="css/my-style-training.css" />
+	<link rel="stylesheet" href="css/all.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="shortcut icon" href="images/icon.png" type="image/x-icon">
+</head>
+
+<body>
+	<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+		<div class="container">
+			<a class="navbar-brand" href="index.html"><span><i class="left-bar"></i>Caliathletics<i
+						class="right-bar"></i></span></a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav"
+				aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="oi oi-menu"></span> Menu
+			</button>
+
+			<div class="collapse navbar-collapse" id="ftco-nav">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item"><a href="index.html" class="nav-link">Trang chủ</a></li>
+					<li class="nav-item"><a href="about.html" class="nav-link">Về chúng tôi</a></li>
+					<li class="nav-item"><a href="program.html" class="nav-link">Chương trình</a></li>
+					<li class="nav-item active"><a href="training.html" class="nav-link">Tập luyện</a></li>
+					<li class="nav-item"><a href="shop.html" class="nav-link">P.T</a></li>
+					<li class="nav-item"><a href="blog.html" class="nav-link">Bài viết</a></li>
+					<li class="nav-item"><a href="account.html" class="nav-link">Đăng nhập</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<!-- END nav -->
+
+	<section class="hero-wrap js-fullheight" style="background-image: url('images/bg_2.jpg');">
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="row no-gutters slider-text js-fullheight align-items-center justify-content-center">
+				<div class="col-md-9 ftco-animate text-center pt-5 mt-md-5">
+					<h1 class="mb-3 bread">Tập luyện</h1>
+					<p class="breadcrumbs">
+						<span class="mr-2"><a href="index.html">Trang chủ</a></span>
+						<span>Tập luyện</span>
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="ftco-section bg-light" id="top">
+		<div class="container">
+			<div class="row justify-content-center mb-5 pb-3">
+				<div class="col-md-7 heading-section ftco-animate text-center">
+					<span class="subheading"><small><i class="left-bar"></i>Caliathletics<i
+								class="right-bar"></i></small></span>
+					<h2 class="mb-1" id="title">Tập luyện ngay!</h2>
+				</div>
+			</div>
+
+			<!-- Options is started here -->
+			<div id="ex-options" style="display: ;">
+				<div class="block-7">
+					<div class="text-center" id="yes-1">
+						<div class="p-1">
+							<img src="/images/i-2.jpg" alt="" class="i">
+						</div>
+						<div class="p-2">
+							<h2 class="heading">Chọn phương thức</h2>
+							<span class="excerpt d-block">Tự động tạo bài tập hoặc tự chọn bài tập</span>
+							<div class="options">
+								<button class="btn btn-primary d-block px-3 py-4 mb-4" id="b-1" onclick="auto()">
+									Tự động
+								</button>
+								<button class="btn btn-primary d-block px-3 py-4 mb-4" id="b-2" onclick="custom()">
+									Tự tạo
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="block-7">
+					<div class="text-center" id="yes-2">
+						<div class="p-2">
+							<h2 class="heading">Chọn trình độ</h2>
+							<span class="excerpt d-block">Lựa chọn trình độ phù hợp với bạn</span>
+							<div class="options">
+								<button class="btn btn-primary d-block px-3 py-4 mb-4" id="b-3" onclick="beginner()">
+									Mới bắt đầu
+								</button>
+								<button class="btn btn-primary d-block px-3 py-4 mb-4" id="b-4" onclick="normal()">
+									Trung bình
+								</button>
+								<button class="btn btn-primary d-block px-3 py-4 mb-4" id="b-5" onclick="advanced()">
+									Nâng cao
+								</button>
+							</div>
+						</div>
+						<div class="p-1">
+							<img src="/images/i-3.jpg" alt="" class="i">
+						</div>
+					</div>
+				</div>
+				<div class="block-7">
+					<div class="text-center" id="yes-3">
+						<div class="p-1">
+							<img src="/images/i-1.jpg" alt="" class="i">
+						</div>
+						<div class="p-2">
+							<h2 class="heading">Chọn mục tiêu</h2>
+							<span class="excerpt d-block">Lựa chọn mục đích tập luyện phù hợp</span>
+							<div class="options">
+								<button class="btn btn-primary d-block px-3 py-4 mb-4" id="b-6" onclick="build()">
+									Xây dựng cơ bắp
+								</button>
+								<button class="btn btn-primary d-block px-3 py-4 mb-4" id="b-7" onclick="burn()">
+									Giảm mỡ thừa
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="block-7">
+					<div class="text-center" id="yes-4">
+						<div class="p-2">
+							<h2 class="heading">Chọn nhóm cơ</h2>
+							<span class="excerpt d-block">Lựa chọn nhóm cơ bạn muốn tập luyện</span>
+							<div class="options" id="options-3">
+								<button class="btn btn-primary d-block px-3 py-4 mb-4" id="b-8" onclick="back()">
+									Lưng
+								</button>
+								<button class="btn btn-primary d-block px-3 py-4 mb-4" id="b-9" onclick="bicep()">
+									Tay trước
+								</button>
+								<button class="btn btn-primary d-block px-3 py-4 mb-4" id="b-10" onclick="chest()">
+									Ngực
+								</button>
+								<button class="btn btn-primary d-block px-3 py-4 mb-4" id="b-11" onclick="shoulder()">
+									Vai
+								</button>
+								<button class="btn btn-primary d-block px-3 py-4 mb-4" id="b-12" onclick="tricep()">
+									Tay sau
+								</button>
+								<button class="btn btn-primary d-block px-3 py-4 mb-4" id="b-13" onclick="leg()">
+									Chân
+								</button>
+								<button class="btn btn-primary d-block px-3 py-4 mb-4" id="b-14" onclick="ab()">
+									Bụng
+								</button>
+							</div>
+						</div>
+						<div class="p-1">
+							<img src="/images/i-4.jpg" alt="" class="i">
+						</div>
+					</div>
+				</div>
+				<div class="block-7">
+					<div class="text-center">
+						<h2 class="heading">Bạn đã hoàn thành các tùy chọn?</h2>
+						<span class="excerpt d-block">Tạo bài tập của bạn ngay bây giờ</span>
+						<div class="options">
+							<a href="#top" class="btn btn-primary d-block px-3 py-4 mb-4" id="b-15"
+								onclick="create()">Tạo
+								bài tập</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Options is ended here -->
+			<!-- Pre is started here -->
+			<div id="pre-options" style="display: none;">
+				<div class="block-7" id="round-1" style="display: ;">
+					<div class="text-center">
+						<div class="ex-set">
+							<div class="round">
+								<div class="round-name">
+									<button class="mybtn"><i class="fa fa-close"></i></button>
+									<h2 class="heading">Round 1</h2>
+								</div>
+								<div class="round-times">
+									<button class="mybtn" onclick="rnum_1_minus()"><i class="fa fa-minus"></i></button>
+									<h2 class="heading" id="rnum-1">1</h2>
+									<button class="mybtn" onclick="rnum_1_plus()"><i class="fa fa-plus"></i></button>
+								</div>
+							</div>
+
+							<div class="bruhh">
+								<div class="excercises" id="ex-1" style="display: none;">
+									<div class="ex">
+										<div class="image-name">
+											<img src="/ex-resources/ex-images/push-ups.png" alt="img" class="images"
+												id="img-1">
+											<div class="ex-change-prop">
+												<p class="text" id="name-1">Ex Name</p>
+												<p class="text"><span id="rep-1">10</span> reps</p>
+												<p class="text">Rest <span id="rest-1">60</span> sec</p>
+											</div>
+										</div>
+										<div class="ex-change">
+											<div>
+												<button class="mybtn" id="close-1" onclick="close_ex_1()"><i
+														class="fa fa-close"></i></button>
+											</div>
+											<div class="ex-change-order">
+												<!-- <button><i class="fas fa-caret-square-up"
+													style="font-size: 150%;"></i></button>
+											<button><i class="fas fa-caret-square-down"
+													style="font-size: 150%;"></i></button> -->
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="excercises" id="ex-2" style="display: none;">
+									<div class="ex">
+										<div class="image-name">
+											<img src="/ex-resources/ex-images/push-ups.png" alt="img" class="images"
+												id="img-2">
+											<div class="ex-change-prop">
+												<p class="text" id="name-2">Ex Name</p>
+												<p class="text"><span id="rep-2">10</span> reps</p>
+												<p class="text">Rest <span id="rest-2">60</span> sec</p>
+											</div>
+										</div>
+										<div class="ex-change">
+											<div>
+												<button class="mybtn" id="close-2" onclick="close_ex_2()"><i
+														class="fa fa-close"></i></button>
+											</div>
+											<div class="ex-change-order">
+												<!-- <button><i class="fas fa-caret-square-up"
+													style="font-size: 150%;"></i></button>
+											<button><i class="fas fa-caret-square-down"
+													style="font-size: 150%;"></i></button> -->
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="excercises" id="ex-3" style="display: none;">
+									<div class="ex">
+										<div class="image-name">
+											<img src="/ex-resources/ex-images/push-ups.png" alt="img" class="images"
+												id="img-3">
+											<div class="ex-change-prop">
+												<p class="text" id="name-3">Ex Name</p>
+												<p class="text"><span id="rep-3">10</span> reps</p>
+												<p class="text">Rest <span id="rest-3">60</span> sec</p>
+											</div>
+										</div>
+										<div class="ex-change">
+											<div>
+												<button class="mybtn" id="close-3" onclick="close_ex_3()"><i
+														class="fa fa-close"></i></button>
+											</div>
+											<div class="ex-change-order">
+												<!-- <button><i class="fas fa-caret-square-up"
+													style="font-size: 150%;"></i></button>
+											<button><i class="fas fa-caret-square-down"
+													style="font-size: 150%;"></i></button> -->
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="excercises" id="ex-4" style="display: none;">
+									<div class="ex">
+										<div class="image-name">
+											<img src="/ex-resources/ex-images/push-ups.png" alt="img" class="images"
+												id="img-4">
+											<div class="ex-change-prop">
+												<p class="text" id="name-4">Ex Name</p>
+												<p class="text"><span id="rep-4">10</span> reps</p>
+												<p class="text">Rest <span id="rest-4">60</span> sec</p>
+											</div>
+										</div>
+										<div class="ex-change">
+											<div>
+												<button class="mybtn" id="close-4" onclick="close_ex_4()"><i
+														class="fa fa-close"></i></button>
+											</div>
+											<div class="ex-change-order">
+												<!-- <button><i class="fas fa-caret-square-up"
+													style="font-size: 150%;"></i></button>
+											<button><i class="fas fa-caret-square-down"
+													style="font-size: 150%;"></i></button> -->
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="excercises" id="ex-5" style="display: none;">
+									<div class="ex">
+										<div class="image-name">
+											<img src="/ex-resources/ex-images/push-ups.png" alt="img" class="images"
+												id="img-5">
+											<div class="ex-change-prop">
+												<p class="text" id="name-5">Ex Name</p>
+												<p class="text"><span id="rep-5">10</span> reps</p>
+												<p class="text">Rest <span id="rest-5">60</span> sec</p>
+											</div>
+										</div>
+										<div class="ex-change">
+											<div>
+												<button class="mybtn" id="close-5" onclick="close_ex_5()"><i
+														class="fa fa-close"></i></button>
+											</div>
+											<div class="ex-change-order">
+												<!-- <button><i class="fas fa-caret-square-up"
+													style="font-size: 150%;"></i></button>
+											<button><i class="fas fa-caret-square-down"
+													style="font-size: 150%;"></i></button> -->
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="excercises" id="ex-6" style="display: none;">
+									<div class="ex">
+										<div class="image-name">
+											<img src="/ex-resources/ex-images/push-ups.png" alt="img" class="images"
+												id="img-6">
+											<div class="ex-change-prop">
+												<p class="text" id="name-6">Ex Name</p>
+												<p class="text"><span id="rep-6">10</span> reps</p>
+												<p class="text">Rest <span id="rest-6">60</span> sec</p>
+											</div>
+										</div>
+										<div class="ex-change">
+											<div>
+												<button class="mybtn" id="close-6" onclick="close_ex_6()"><i
+														class="fa fa-close"></i></button>
+											</div>
+											<div class="ex-change-order">
+												<!-- <button><i class="fas fa-caret-square-up"
+													style="font-size: 150%;"></i></button>
+											<button><i class="fas fa-caret-square-down"
+													style="font-size: 150%;"></i></button> -->
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="excercises" id="ex-7" style="display: none;">
+									<div class="ex">
+										<div class="image-name">
+											<img src="/ex-resources/ex-images/push-ups.png" alt="img" class="images"
+												id="img-7">
+											<div class="ex-change-prop">
+												<p class="text" id="name-7">Ex Name</p>
+												<p class="text"><span id="rep-7">10</span> reps</p>
+												<p class="text">Rest <span id="rest-7">60</span> sec</p>
+											</div>
+										</div>
+										<div class="ex-change">
+											<div>
+												<button class="mybtn" id="close-7" onclick="close_ex_7()"><i
+														class="fa fa-close"></i></button>
+											</div>
+											<div class="ex-change-order">
+												<!-- <button><i class="fas fa-caret-square-up"
+													style="font-size: 150%;"></i></button>
+											<button><i class="fas fa-caret-square-down"
+													style="font-size: 150%;"></i></button> -->
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="add-ex">
+									<button class="mybtn" id="add-ex" onclick="addex_1()"><i
+											class="fa fa-plus"></i></button>
+									<p class="text">Thêm bài tập</p>
+									<div id="select-form">
+										<form id="form">
+											<select class="form-control" id="sel-1">
+											</select>
+										</form>
+									</div>
+								</div>
+							</div>
+
+							<div class="add-round">
+								<p class="text">Rest</p>
+								<div class="change-rest">
+									<button class="mybtn" onclick="rest_1_minus()"><i class="fa fa-minus"></i></button>
+									<h2 class="heading" id="rest-num-1">120</h2>
+									<button class="mybtn" onclick="rest_1_plus()"><i class="fa fa-plus"></i></button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Round 2 -->
+				<div class="block-7" id="round-2" style="display: none;">
+					<div class="text-center">
+						<div class="ex-set">
+							<div class="round">
+								<div class="round-name">
+									<button class="mybtn" id="close-round-2" onclick="close_round_2()"><i
+											class="fa fa-close"></i></button>
+									<h2 class="heading">Round 2</h2>
+								</div>
+								<div class="round-times">
+									<button class="mybtn" onclick="rnum_2_minus()"><i class="fa fa-minus"></i></button>
+									<h2 class="heading" id="rnum-2">1</h2>
+									<button class="mybtn" onclick="rnum_2_plus()"><i class="fa fa-plus"></i></button>
+								</div>
+							</div>
+
+							<div class="bruhh">
+								<div class="excercises" id="ex-8" style="display: none;">
+									<div class="ex">
+										<div class="image-name">
+											<img src="/ex-resources/ex-images/push-ups.png" alt="img" class="images"
+												id="img-8">
+											<div class="ex-change-prop">
+												<p class="text" id="name-8">Ex Name</p>
+												<p class="text"><span id="rep-8">10</span> reps</p>
+												<p class="text">Rest <span id="rest-8">60</span> sec</p>
+											</div>
+										</div>
+										<div class="ex-change">
+											<div>
+												<button class="mybtn" id="close-8" onclick="close_ex_8()"><i
+														class="fa fa-close"></i></button>
+											</div>
+											<div class="ex-change-order">
+												<!-- <button><i class="fas fa-caret-square-up"
+													style="font-size: 150%;"></i></button>
+											<button><i class="fas fa-caret-square-down"
+													style="font-size: 150%;"></i></button> -->
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="excercises" id="ex-9" style="display: none;">
+									<div class="ex">
+										<div class="image-name">
+											<img src="/ex-resources/ex-images/push-ups.png" alt="img" class="images"
+												id="img-9">
+											<div class="ex-change-prop">
+												<p class="text" id="name-9">Ex Name</p>
+												<p class="text"><span id="rep-9">10</span> reps</p>
+												<p class="text">Rest <span id="rest-9">60</span> sec</p>
+											</div>
+										</div>
+										<div class="ex-change">
+											<div>
+												<button class="mybtn" id="close-9" onclick="close_ex_9()"><i
+														class="fa fa-close"></i></button>
+											</div>
+											<div class="ex-change-order">
+												<!-- <button><i class="fas fa-caret-square-up"
+													style="font-size: 150%;"></i></button>
+											<button><i class="fas fa-caret-square-down"
+													style="font-size: 150%;"></i></button> -->
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="excercises" id="ex-10" style="display: none;">
+									<div class="ex">
+										<div class="image-name">
+											<img src="/ex-resources/ex-images/push-ups.png" alt="img" class="images"
+												id="img-10">
+											<div class="ex-change-prop">
+												<p class="text" id="name-10">Ex Name</p>
+												<p class="text"><span id="rep-10">10</span> reps</p>
+												<p class="text">Rest <span id="rest-10">60</span> sec</p>
+											</div>
+										</div>
+										<div class="ex-change">
+											<div>
+												<button class="mybtn" id="close-10" onclick="close_ex_10()"><i
+														class="fa fa-close"></i></button>
+											</div>
+											<div class="ex-change-order">
+												<!-- <button><i class="fas fa-caret-square-up"
+													style="font-size: 150%;"></i></button>
+											<button><i class="fas fa-caret-square-down"
+													style="font-size: 150%;"></i></button> -->
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="excercises" id="ex-11" style="display: none;">
+									<div class="ex">
+										<div class="image-name">
+											<img src="/ex-resources/ex-images/push-ups.png" alt="img" class="images"
+												id="img-11">
+											<div class="ex-change-prop">
+												<p class="text" id="name-11">Ex Name</p>
+												<p class="text"><span id="rep-11">10</span> reps</p>
+												<p class="text">Rest <span id="rest-11">60</span> sec</p>
+											</div>
+										</div>
+										<div class="ex-change">
+											<div>
+												<button class="mybtn" id="close-11" onclick="close_ex_11()"><i
+														class="fa fa-close"></i></button>
+											</div>
+											<div class="ex-change-order">
+												<!-- <button><i class="fas fa-caret-square-up"
+													style="font-size: 150%;"></i></button>
+											<button><i class="fas fa-caret-square-down"
+													style="font-size: 150%;"></i></button> -->
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="excercises" id="ex-12" style="display: none;">
+									<div class="ex">
+										<div class="image-name">
+											<img src="/ex-resources/ex-images/push-ups.png" alt="img" class="images"
+												id="img-12">
+											<div class="ex-change-prop">
+												<p class="text" id="name-12">Ex Name</p>
+												<p class="text"><span id="rep-12">10</span> reps</p>
+												<p class="text">Rest <span id="rest-12">60</span> sec</p>
+											</div>
+										</div>
+										<div class="ex-change">
+											<div>
+												<button class="mybtn" id="close-12" onclick="close_ex_12()"><i
+														class="fa fa-close"></i></button>
+											</div>
+											<div class="ex-change-order">
+												<!-- <button><i class="fas fa-caret-square-up"
+													style="font-size: 150%;"></i></button>
+											<button><i class="fas fa-caret-square-down"
+													style="font-size: 150%;"></i></button> -->
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="excercises" id="ex-13" style="display: none;">
+									<div class="ex">
+										<div class="image-name">
+											<img src="/ex-resources/ex-images/push-ups.png" alt="img" class="images"
+												id="img-13">
+											<div class="ex-change-prop">
+												<p class="text" id="name-13">Ex Name</p>
+												<p class="text"><span id="rep-13">10</span> reps</p>
+												<p class="text">Rest <span id="rest-13">60</span> sec</p>
+											</div>
+										</div>
+										<div class="ex-change">
+											<div>
+												<button class="mybtn" id="close-13" onclick="close_ex_13()"><i
+														class="fa fa-close"></i></button>
+											</div>
+											<div class="ex-change-order">
+												<!-- <button><i class="fas fa-caret-square-up"
+													style="font-size: 150%;"></i></button>
+											<button><i class="fas fa-caret-square-down"
+													style="font-size: 150%;"></i></button> -->
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="excercises" id="ex-14" style="display: none;">
+									<div class="ex">
+										<div class="image-name">
+											<img src="/ex-resources/ex-images/push-ups.png" alt="img" class="images"
+												id="img-14">
+											<div class="ex-change-prop">
+												<p class="text" id="name-14">Ex Name</p>
+												<p class="text"><span id="rep-14">10</span> reps</p>
+												<p class="text">Rest <span id="rest-14">60</span> sec</p>
+											</div>
+										</div>
+										<div class="ex-change">
+											<div>
+												<button class="mybtn" id="close-14" onclick="close_ex_14()"><i
+														class="fa fa-close"></i></button>
+											</div>
+											<div class="ex-change-order">
+												<!-- <button><i class="fas fa-caret-square-up"
+													style="font-size: 150%;"></i></button>
+											<button><i class="fas fa-caret-square-down"
+													style="font-size: 150%;"></i></button> -->
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="add-ex">
+									<button class="mybtn" id="add-ex" onclick="addex_2()"><i
+											class="fa fa-plus"></i></button>
+									<p class="text">Thêm bài tập</p>
+									<div id="select-form">
+										<form id="form]">
+											<select class="form-control" id="sel-2">
+											</select>
+										</form>
+									</div>
+								</div>
+
+							</div>
+
+							<div class="add-round">
+								<p class="text">Rest</p>
+								<div class="change-rest">
+									<button class="mybtn" onclick="rest_2_minus()"><i class="fa fa-minus"></i></button>
+									<h2 class="heading" id="rest-num-2">120</h2>
+									<button class="mybtn" onclick="rest_2_plus()"><i class="fa fa-plus"></i></button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Round 3 -->
+				<div class="block-7" id="round-3" style="display: none;">
+					<div class="text-center">
+						<div class="ex-set">
+							<div class="round" id="close-round-3" onclick="close_round_3()">
+								<div class="round-name">
+									<button class="mybtn"><i class="fa fa-close"></i></button>
+									<h2 class="heading">Round 3</h2>
+								</div>
+								<div class="round-times">
+									<button class="mybtn" onclick="rnum_3_minus()"><i class="fa fa-minus"></i></button>
+									<h2 class="heading" id="rnum-3">1</h2>
+									<button class="mybtn" onclick="rnum_3_plus()"><i class="fa fa-plus"></i></button>
+								</div>
+							</div>
+
+							<div class="bruhh">
+								<div class="excercises" id="ex-15" style="display: none;">
+									<div class="ex">
+										<div class="image-name">
+											<img src="/ex-resources/ex-images/push-ups.png" alt="img" class="images"
+												id="img-15">
+											<div class="ex-change-prop">
+												<p class="text" id="name-15">Ex Name</p>
+												<p class="text"><span id="rep-15">10</span> reps</p>
+												<p class="text">Rest <span id="rest-15">60</span> sec</p>
+											</div>
+										</div>
+										<div class="ex-change">
+											<div>
+												<button class="mybtn" id="close-15" onclick="close_ex_15()"><i
+														class="fa fa-close"></i></button>
+											</div>
+											<div class="ex-change-order">
+												<!-- <button><i class="fas fa-caret-square-up"
+													style="font-size: 150%;"></i></button>
+											<button><i class="fas fa-caret-square-down"
+													style="font-size: 150%;"></i></button> -->
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="excercises" id="ex-16" style="display: none;">
+									<div class="ex">
+										<div class="image-name">
+											<img src="/ex-resources/ex-images/push-ups.png" alt="img" class="images"
+												id="img-16">
+											<div class="ex-change-prop">
+												<p class="text" id="name-16">Ex Name</p>
+												<p class="text"><span id="rep-16">10</span> reps</p>
+												<p class="text">Rest <span id="rest-16">60</span> sec</p>
+											</div>
+										</div>
+										<div class="ex-change">
+											<div>
+												<button class="mybtn" id="close-16" onclick="close_ex_16()"><i
+														class="fa fa-close"></i></button>
+											</div>
+											<div class="ex-change-order">
+												<!-- <button><i class="fas fa-caret-square-up"
+													style="font-size: 150%;"></i></button>
+											<button><i class="fas fa-caret-square-down"
+													style="font-size: 150%;"></i></button> -->
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="excercises" id="ex-17" style="display: none;">
+									<div class="ex">
+										<div class="image-name">
+											<img src="/ex-resources/ex-images/push-ups.png" alt="img" class="images"
+												id="img-17">
+											<div class="ex-change-prop">
+												<p class="text" id="name-17">Ex Name</p>
+												<p class="text"><span id="rep-17">10</span> reps</p>
+												<p class="text">Rest <span id="rest-17">60</span> sec</p>
+											</div>
+										</div>
+										<div class="ex-change">
+											<div>
+												<button class="mybtn" id="close-17" onclick="close_ex_17()"><i
+														class="fa fa-close"></i></button>
+											</div>
+											<div class="ex-change-order">
+												<!-- <button><i class="fas fa-caret-square-up"
+													style="font-size: 150%;"></i></button>
+											<button><i class="fas fa-caret-square-down"
+													style="font-size: 150%;"></i></button> -->
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="excercises" id="ex-18" style="display: none;">
+									<div class="ex">
+										<div class="image-name">
+											<img src="/ex-resources/ex-images/push-ups.png" alt="img" class="images"
+												id="img-18">
+											<div class="ex-change-prop">
+												<p class="text" id="name-18">Ex Name</p>
+												<p class="text"><span id="rep-18">10</span> reps</p>
+												<p class="text">Rest <span id="rest-18">60</span> sec</p>
+											</div>
+										</div>
+										<div class="ex-change">
+											<div>
+												<button class="mybtn" id="close-18" onclick="close_ex_18()"><i
+														class="fa fa-close"></i></button>
+											</div>
+											<div class="ex-change-order">
+												<!-- <button><i class="fas fa-caret-square-up"
+													style="font-size: 150%;"></i></button>
+											<button><i class="fas fa-caret-square-down"
+													style="font-size: 150%;"></i></button> -->
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="excercises" id="ex-19" style="display: none;">
+									<div class="ex">
+										<div class="image-name">
+											<img src="/ex-resources/ex-images/push-ups.png" alt="img" class="images"
+												id="img-19">
+											<div class="ex-change-prop">
+												<p class="text" id="name-19">Ex Name</p>
+												<p class="text"><span id="rep-19">10</span> reps</p>
+												<p class="text">Rest <span id="rest-19">60</span> sec</p>
+											</div>
+										</div>
+										<div class="ex-change">
+											<div>
+												<button class="mybtn" id="close-19" onclick="close_ex_19()"><i
+														class="fa fa-close"></i></button>
+											</div>
+											<div class="ex-change-order">
+												<!-- <button><i class="fas fa-caret-square-up"
+													style="font-size: 150%;"></i></button>
+											<button><i class="fas fa-caret-square-down"
+													style="font-size: 150%;"></i></button> -->
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="excercises" id="ex-20" style="display: none;">
+									<div class="ex">
+										<div class="image-name">
+											<img src="/ex-resources/ex-images/push-ups.png" alt="img" class="images"
+												id="img-20">
+											<div class="ex-change-prop">
+												<p class="text" id="name-20">Ex Name</p>
+												<p class="text"><span id="rep-20">10</span> reps</p>
+												<p class="text">Rest <span id="rest-20">60</span> sec</p>
+											</div>
+										</div>
+										<div class="ex-change">
+											<div>
+												<button class="mybtn" id="close-20" onclick="close_ex_20()"><i
+														class="fa fa-close"></i></button>
+											</div>
+											<div class="ex-change-order">
+												<!-- <button><i class="fas fa-caret-square-up"
+													style="font-size: 150%;"></i></button>
+											<button><i class="fas fa-caret-square-down"
+													style="font-size: 150%;"></i></button> -->
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="excercises" id="ex-21" style="display: none;">
+									<div class="ex">
+										<div class="image-name">
+											<img src="/ex-resources/ex-images/push-ups.png" alt="img" class="images"
+												id="img-21">
+											<div class="ex-change-prop">
+												<p class="text" id="name-21">Ex Name</p>
+												<p class="text"><span id="rep-21">10</span> reps</p>
+												<p class="text">Rest <span id="rest-21">60</span> sec</p>
+											</div>
+										</div>
+										<div class="ex-change">
+											<div>
+												<button class="mybtn" id="close-21" onclick="close_ex_21()"><i
+														class="fa fa-close"></i></button>
+											</div>
+											<div class="ex-change-order">
+												<!-- <button><i class="fas fa-caret-square-up"
+													style="font-size: 150%;"></i></button>
+											<button><i class="fas fa-caret-square-down"
+													style="font-size: 150%;"></i></button> -->
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="add-ex">
+									<button class="mybtn" id="add-ex" onclick="addex_3()"><i
+											class="fa fa-plus"></i></button>
+									<p class="text">Thêm bài tập</p>
+									<div id="select-form">
+										<form id="form]">
+											<select class="form-control" id="sel-3">
+											</select>
+										</form>
+									</div>
+								</div>
+
+								<div class="add-round">
+									<p class="text">Rest</p>
+									<div class="change-rest">
+										<button class="mybtn" onclick="rest_3_minus()"><i
+												class="fa fa-minus"></i></button>
+										<h2 class="heading" id="rest-num-3">120</h2>
+										<button class="mybtn" onclick="rest_3_plus()"><i
+												class="fa fa-plus"></i></button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="block-7">
+					<div class="text-center">
+						<div class="addround">
+							<button type="button" class="block" id="add-round" onclick="add_round()">
+								<p class="text" id="addr">Thêm round</p>
+							</button>
+						</div>
+					</div>
+				</div>
+
+				<div class="block-7">
+					<div class="text-center">
+						<h2 class="heading">Bạn đã hoàn thành các tùy chọn?</h2>
+						<span class="excerpt d-block">Bắt đầu tập luyện ngay bây giờ</span>
+						<div class="options">
+							<a href="#training" class="btn btn-primary d-block px-3 py-4 mb-4" id="b-16"
+								onclick="start()">Tập
+								luyện ngay</a>
+						</div>
+					</div>
+				</div>
+
+			</div>
+			<!-- Pre is ended here -->
+			<!-- Training is started here -->
+			<div class="training" style="display: none;" id="training">
+				<div class="block-7">
+					<div class="text-center">
+						<div id="waiting" style="display: ;">
+							<img src="/images/waiting.jpg" alt="waiting" id="waiting-img">
+							<div class="button-done" id="button-start">
+								<button class="btn btn-primary d-block px-3 py-4 mb-4" id="b-17"
+									onclick="startcounting()">
+									Bắt đầu
+								</button>
+							</div>
+						</div>
+						<div id="doing" style="display: none">
+							<span class="price"><span class="number" id="hour">00</span><span class="number"
+									id=":">:</span><span class="number" id="minute">00</span><span class="number"
+									id=":">:</span><span class="number" id="second">00</span></span>
+							<div class="ex-info">
+								<div class="ex-video">
+									<video src="" autoplay loop id="video"></video>
+								</div>
+								<h3 class="heading-2 mb-4" id="ex-name-on">Excercise Name</h3>
+								<h2 class="heading"><span class="text" id="ex-rep-on"></span> Reps</h2>
+								<h2 class="heading"><span class="text" id="ex-rest-on"></span> Rest</h2>
+							</div>
+							<div class="button-done" id="button-done" style="display: none;">
+								<button class="btn btn-primary d-block px-3 py-4 mb-4" id="b-19" onclick="done()">
+									Bắt đầu
+								</button>
+							</div>
+							<div class="button-done" id="button-done-fake" style="display: none;">
+								<button class="btn btn-primary d-block px-3 py-4 mb-4" id="b-19" onclick="donefake()">
+									Bắt đầu
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Training is ended here -->
+			<!-- Workout completing is started here -->
+			<div id="completing" style="display: none">
+				<div class="block-7">
+					<div class="text-center">
+						<p id="com-time">THỜI GIAN TẬP LUYỆN</p> <!-- !!! -->
+						<span class="price"><span class="price"><span class="number" id="hour-end">00</span><span
+									class="number" id="hour-label"> h </span><span class="number"
+									id="minute-end">00</span><span class="number" id="minute-label"> m</span>
+								<div class="button-done">
+									<a href="#top" class="btn btn-primary d-block px-3 py-4 mb-4" id="b-18"
+										onclick="workoutdone()">Xong!!!</a>
+								</div>
+					</div>
+				</div>
+			</div>
+			<!-- Workout completing is ended here -->
+
+			<div class="row mt-5">
+				<div class="col-md-4">
+					<div class="services d-flex ftco-animate">
+						<div class="text px-md-2 pl-4">
+							<div class="icon-2 d-flex justify-content-center align-items-center" id="icon-1">
+								<span class="flaticon-ruler"></span>
+							</div>
+							<h3 class="h3">Thư viện bài tập đa dạng</h3>
+							<p class="paragh">
+								A small river named Duden flows by their place and supplies it
+								with the necessary regelialia. It is a paradisematic country
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="services d-flex ftco-animate">
+						<div class="text px-md-2 pl-4">
+							<div class="icon-2 d-flex justify-content-center align-items-center" id="icon-2">
+								<span class="flaticon-gym"></span>
+							</div>
+							<h3 class="h3">Tập luyện mọi lúc, mọi nơi</h3>
+							<p class="paragh">
+								A small river named Duden flows by their place and supplies it
+								with the necessary regelialia. It is a paradisematic country
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="services d-flex ftco-animate">
+						<div class="text px-md-2 pl-4">
+							<div class="icon-2 d-flex justify-content-center align-items-center" id="icon-3">
+								<span class="flaticon-tools-and-utensils"></span>
+							</div>
+							<h3 class="h3">Nhanh chóng, tiết kiệm</h3>
+							<p class="paragh">
+								A small river named Duden flows by their place and supplies it
+								with the necessary regelialia. It is a paradisematic country
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer class="ftco-footer ftco-section img">
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="row mb-5">
+				<div class="col-lg-3 col-md-6 mb-5 mb-md-5">
+					<div class="ftco-footer-widget mb-4">
+						<h2 class="ftco-heading-2">Về chúng tôi</h2>
+						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+							there live the blind texts.</p>
+						<ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
+							<li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
+							<li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+							<li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 mb-5 mb-md-5">
+					<div class="ftco-footer-widget mb-4">
+						<h2 class="ftco-heading-2">Bài viết mới nhất</h2>
+						<div class="block-21 mb-4 d-flex">
+							<a class="blog-img mr-4" style="background-image: url(images/image_1.jpg);"></a>
+							<div class="text">
+								<h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about</a>
+								</h3>
+								<div class="meta">
+									<div><a href="#"><span class="icon-calendar"></span> July 01, 2019</a></div>
+									<div><a href="#"><span class="icon-person"></span> Admin</a></div>
+									<div><a href="#"><span class="icon-chat"></span> 19</a></div>
+								</div>
+							</div>
+						</div>
+						<div class="block-21 mb-4 d-flex">
+							<a class="blog-img mr-4" style="background-image: url(images/image_2.jpg);"></a>
+							<div class="text">
+								<h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about</a>
+								</h3>
+								<div class="meta">
+									<div><a href="#"><span class="icon-calendar"></span> July 01, 2019</a></div>
+									<div><a href="#"><span class="icon-person"></span> Admin</a></div>
+									<div><a href="#"><span class="icon-chat"></span> 19</a></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-2 col-md-6 mb-5 mb-md-5">
+					<div class="ftco-footer-widget mb-4 ml-md-4">
+						<h2 class="ftco-heading-2">Tham gia</h2>
+						<ul class="list-unstyled">
+							<li><a href="program.html" class="py-2 d-block">Chương trình</a></li>
+							<li><a href="training.html" class="py-2 d-block">Tập luyện</a></li>
+							<li><a href="shop.html" class="py-2 d-block">Cửa hàng</a></li>
+							<li><a href="blog.html" class="py-2 d-block">Bài viết</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6 mb-5 mb-md-5">
+					<div class="ftco-footer-widget mb-4">
+						<h2 class="ftco-heading-2">Bạn có câu hỏi?</h2>
+						<div class="block-23 mb-3">
+							<ul>
+								<li><span class="icon icon-map-marker"></span><span class="text">Team 3 - C4EJS83 -
+										MindX - 22
+										Thành Công - Ba Đình - Hà Nội - Việt Nam</span></li>
+								<li><a href="#"><span class="icon icon-phone"></span><span class="text">+111 000
+											1011</span></a></li>
+								<li><a href="#"><span class="icon icon-envelope"></span><span
+											class="text">caliathletics@calis.com</span></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12 text-center">
+
+					<p>
+						Caliathletics &copy;
+						<script>document.write(new Date().getFullYear());</script>
+					</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<!-- loader -->
+	<div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px">
+			<circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" />
+			<circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10"
+				stroke="#F96D00" /></svg></div>
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery-migrate-3.0.1.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.easing.1.3.js"></script>
+	<script src="js/jquery.waypoints.min.js"></script>
+	<script src="js/jquery.stellar.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="js/aos.js"></script>
+	<script src="js/jquery.animateNumber.min.js"></script>
+	<script src="js/bootstrap-datepicker.js"></script>
+	<script src="js/jquery.timepicker.min.js"></script>
+	<script src="js/scrollax.min.js"></script>
+	<script
+		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+	<script src="js/google-map.js"></script>
+	<script src="js/main.js"></script>
+	<script src="js/my-script-training.js"></script>
+	<script src="js/ex-list.js"></script>
+
+</body>
+
+</html>
