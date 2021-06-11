@@ -1,2 +1,2 @@
-# caliathletics
+# Caliathletics - Your Personal Calisthenics Trainer
 updating...
