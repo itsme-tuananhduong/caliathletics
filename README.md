@@ -1,3 +1,3 @@
-# Caliathletics - Your Personal Calisthenics Trainer
+# caliathletics - your personal calisthenics trainer
 
-Code For Everyone JS - 83 - Project
+code for everyone js - 83 - project
